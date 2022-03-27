@@ -41,7 +41,75 @@
           <span id="statusOfName"></span>
         </div>
         <!-- Sơn -->
-
+        <div class="row_input">
+          <div class="textBox">
+            <span>Address</span>
+          </div>
+          <input   name="txtAddress" id="txtAddress">
+          <span id="statusOfAddress"></span>
+        </div>
+  
+  
+  
+        <div class="row_input">
+          <div class="textBox">
+            <span>Country</span>
+          </div>
+          <select name="txtCountry" id="txtCountry" >
+              <option value="disabled selected">Choose your Country</option>
+              <option value="VN">VN</option>
+              <option value="JAP">JAPAN</option>
+              <option value="GER">GERMANY</option>
+              <option value="RUS">RUSSIA</option>
+            </select>
+            <span id="statusOfCountry"></span>
+        </div>
+  
+  
+        <div class="row_input">
+          <div class="textBox">
+            <span>Zip code</span>
+          </div>
+          <input  type="text" name="txtZip" id="txtZip" >
+          <span id="statusOfZip"></span>
+        </div>
+  
+  
+        <div class="row_input">
+          <div class="textBox">
+            <span>Email</span>
+          </div>
+          <input  type="text" name="txtEmail" id="txtEmail" >
+          <span id="statusOfEmail"></span>
+        </div>
+        <div class="row_input">
+          <div class="textBox">
+            <span>Sex</span>
+          </div>
+          <input   type="checkbox" id="male"  name="male" value="male"  onchange='toggleCheckbox("male","female")'/>
+          <label for="male">Male</label><br>
+          <input   type="checkbox" id="female"  name="female" value="female"  onchange='toggleCheckbox("female","male")'/>
+          <label for="female">Female</label><br>
+          <span id="statusOfSex"></span>
+        </div>
+  
+  
+        <div class="row_input">
+          <div class="textBox">
+            <span>Language</span>
+          </div>
+          <input  type="checkbox" id="English"  name="English" value="English"  onchange='toggleCheckbox("English","NotEnglish")'/>
+          <label for="English">English</label><br>
+          <input   type="checkbox" id="NotEnglish"  name="NotEnglish" value="NotEnglish"  onchange='toggleCheckbox("NotEnglish","English")'/>
+          <label for="NotEnglish">NotEnglish</label><br>
+          <span id="statusOfLanguage"></span>
+        </div>
+        <div class="row_input">
+          <div class="textBox">
+            <span>About</span>
+          </div>
+          <input   style="height:50px;" type="text" name="txtAbout" id="txtAbout">
+        </div>
 
       
 
@@ -54,5 +122,6 @@
         <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
   </body>
 </html>
+
 
 
