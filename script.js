@@ -17,7 +17,7 @@ function checkUserId(){
     }
     function checkName(){
     let name = document.getElementById('txtName');
-    let nameRegex = /^[a-zA-Z]$/;
+    let nameRegex =/^[\w'\-,.][^0-9_!¡?÷?¿/\\+=@#$%ˆ&*(){}|~<>;:[\]]{2,}$/ ;
     if(nameRegex.test(name.value)){
         return true
     }
