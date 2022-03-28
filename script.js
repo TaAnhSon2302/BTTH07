@@ -130,5 +130,127 @@ function checkUserId(){
     
         
     })
+
+    // JQUERY
+// $(document).ready(function(){
+
+//     function checkUserId(){
+//         let userID = $('#txtUserID').val();
+//         let userIDRegex = /^[a-zA-Z0-9]{5,12}$/;
+//         if(userIDRegex.test(userID)){
+//             return true
+//         }
+//         return false
+//     }
+
+//     $("#btnRegister").click(function(e){
+//         e.preventDefault();
+//         if(checkUserId()){
+//             $("#statusOfUserID").text('UserID hợp lệ')
+//             $("#statusOfUserID").css('color','blue')
+//         }else{
+//             $("#statusOfUserID").text('UserID không hợp lệ')
+//             $("#statusOfUserID").css('color','red')
+//         }
+//     })
+
+//     function checkPassword(){
+//         let userPass = $('#txtPassword').val();
+//         let userPassRegex= /^[a-zA-Z0-9]{7,12}$/;
+//         if(userPassRegex.test(userPass)){
+//             return true
+//         }
+//         return false
+//     }
+    
+//      $("#btnRegister").click(function(e){
+//         e.preventDefault();
+//         if(checkPassword()){
+//             $("#statusOfPassword").text('Password hợp lệ')
+//             $("#statusOfPassword").css('color','blue')
+//         }else{
+//             $("#statusOfPassword").text('Password không hợp lệ')
+//             $("#statusOfPassword").css('color','red')
+//         }
+//     })
+
+
+//     function checkName(){
+//         let Name = $('#txtName').val();
+//         let NameRegex = /^[a-zA-Z]$/;
+//         if(NameRegex.test(Name)){
+//             return true
+//         }
+//         return false
+//     }
+//     $("#btnRegister").click(function(e){
+//         e.preventDefault();
+//         if(checkName()){
+//             $("#statusOfName").text('Tên hợp lệ')
+//             $("#statusOfName").css('color','blue')
+//         }else{
+//             $("#statusOfName").text('Tên không hợp lệ')
+//             $("#statusOfName").css('color','red')
+//         }
+//     })
+
+//     function checkCountry(){
+//         let Country = $('#txtCountry').val();
+//         let ValCountry ="Choose your Country";
+//         if(Country ===ValCountry ){
+//             return true
+//         }else{
+//         return false}
+//     }
+//     $("#btnRegister").click(function(e){
+//         e.preventDefault();
+//         if(checkCountry()){
+//             $("#statusOfCounrty").text('Đã chọn')
+//             $("#statusOfCountry").css('color','blue')
+//         }else{
+//             $("#statusOfCountry").text('Chua chọn')
+//             $("#statusOfCountry").css('color','red')
+//         }
+//     })
+
+//     function checkZip(){
+//         let Zip = $('#txtZip').val();
+//         let ZipRegex = /^[0-9]+$/;
+//         if(ZipRegex.test(Zip)){
+//             return true
+//         }
+//         return false
+//     }
+//     $("#btnRegister").click(function(e){
+//         e.preventDefault();
+//         if(checkZip()){
+//             $("#statusOfZip").text('Zip phù hợp')
+//             $("#statusOfZip").css('color','blue')
+//         }else{
+//             $("#statusOfZip").text('Không phù hợp')
+//             $("#statusOfZip").css('color','red')
+//         }
+//     })
+
+
+//     function checkEmail(){
+//         let Email = $('#txtUserID').val();
+//         let EmailRegex = /^[a-zA-Z0-9]{5,12}$/;
+//         if(EmailRegex.test(Email)){
+//             return true
+//         }
+//         return false
+//     }
+//     $("#btnRegister").click(function(e){
+//         e.preventDefault();
+//         if(checkEmail()){
+//             $("#statusOfEmail").text('Zip phù hợp')
+//             $("#statusOfEmail").css('color','blue')
+//         }else{
+//             $("#statusOfEmail").text('Không phù hợp')
+//             $("#statusOfEmail").css('color','red')
+//         }
+//     })
+// })
     
    
